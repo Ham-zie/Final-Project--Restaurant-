@@ -13,7 +13,6 @@
         <!--========== CSS ==========-->
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="Resturant.css">
-
         <script src="Resturant.js"></script>
 
         <title>Hamzie's Restaurant</title>
@@ -37,19 +36,18 @@
                         <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                         <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
-
                         <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
                     </ul>
                 </div>
-
+                
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-menu'></i>
                 </div>
             </nav>
         </header>
 
+        <!--========== HOME ==========-->
         <main class="l-main">
-            <!--========== HOME ==========-->
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
@@ -378,6 +376,30 @@
                     </div>
 
                     <div class="menu__content">
+                        <img src="Img-10.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Archekeh</h3>
+                        <span class="menu__detail">Delicious dish</span>
+                        <span class="menu__preci">Le 35</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="Img-11.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Shrimps, plaintain & couscous</h3>
+                        <span class="menu__detail">Delicious dish</span>
+                        <span class="menu__preci">Le 35</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="Img-12.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Ahborbor</h3>
+                        <span class="menu__detail">Delicious dish</span>
+                        <span class="menu__preci">Le 35</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
                         <img src="Img-2.jpeg" alt="" class="menu__img">
                         <h3 class="menu__name">Rice & Okra stew</h3>
                         <span class="menu__detail">Delicious dish</span>
@@ -389,7 +411,7 @@
                         <img src="Img-3.jpeg" alt="" class="menu__img">
                         <h3 class="menu__name">Shrimp and Rice</h3>
                         <span class="menu__detail">Delicious dish</span>
-                        <span class="menu__preci">Le 22</span>
+                        <span class="menu__preci">Le 40</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
 
@@ -408,7 +430,7 @@
     <h1 class="heading" id="order"> <span>ORDER</span> NOW </h1>
     <div class="row">
         <div class="image">
-            <img src="Img-2.jpeg" alt="">
+            <img src="Img-15 Order.jpg" alt="">
         </div>
 
         <form action="box">
@@ -421,7 +443,7 @@
                 <input type="text" placeholder="food name">
             </div>
             <textarea placeholder="Address" name="" id="" cols="30" rows="10"></textarea>
-            <button onclick="openNewPage()"> ORDER NOW </button>
+            <a href="card.html" class="button">Order Now</a>
         </form>
     </div>
 </section>

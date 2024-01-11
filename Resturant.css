@@ -64,6 +64,8 @@ html{
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
+  --background-color: #2b2b2b;
+  --color: #ffffff;
   --title-color: #F1F3F2;
   --text-color: #C7D1CC;
   --body-color: #1D2521;
@@ -71,7 +73,7 @@ body.dark-theme{
 }
 
 /*========== Button Dark/Light ==========*/
-.change-theme{
+.bx-moon{
   position: absolute;
   right: 1rem;
   top: 1.8rem;
@@ -398,8 +400,8 @@ img{
 }
 
 .order .row form{
-  flex:1 1 50rem;
-  padding:1rem;
+  flex:1 50rem;
+  padding: 1rem;
 }
 
 .order .row form .inputBox{
@@ -411,22 +413,23 @@ img{
 .order .row form .inputBox input, .order .row form textarea{
   padding:1rem;
   margin:1rem 0;
-  font-size: 1.7rem;
+  font-size: 2.7rem;
   color:#333;
   text-transform: none;
   border:.1rem solid rgba(0,0,0,.3);
   border-radius: .5rem;
-  width:49%;
+  width:100%;
 }
 
 .order .row form textarea{
-  width:100%;
+  width: 100%;
   resize: none;
-  height:15rem;
+  height: 15rem;
 }
 
 .order .row form .btn{
   background:none;
+  text-align: center;
 }
 
 .order .row form .btn:hover{
