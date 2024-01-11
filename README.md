@@ -15,9 +15,9 @@ Promoting Sierra Leonean culinary heritage with engaging content and user review
 
 Include screenshots showcasing different sections of the website.
 
-![Homepage](C:\Users\hamzi\Desktop\restaurant\Screenshot 001.png)
-![Menu](C:\Users\hamzi\Desktop\restaurant\Screenshot 002.png)
-![Contact](C:\Users\hamzi\Desktop\restaurant\Screenshot 003.png)
+![Homepage](Screenshot 001.png)
+![Menu](Screenshot 002.png)
+![Contact](Screenshot 003.png)
 
 ## Technologies Used
 
