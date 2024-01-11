@@ -3,16 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 
          <!--========== BOX ICONS ==========-->
          <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
         <!--========== CSS ==========-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="Resturant.css">
 
         <script src="Resturant.js"></script>
 
-        <title>Resturant G</title>
+        <title>Hamzie's Restaurant</title>
     </head>
     <body>
 
@@ -34,7 +38,7 @@
                         <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
 
-                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                        <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
                     </ul>
                 </div>
 
@@ -400,39 +404,27 @@
             </section>
 
             <!-- order section starts  -->
-
 <section class="order" id="order">
-
-    <h1 class="heading" id="ord"> <span>order</span> now </h1>
-
+    <h1 class="heading" id="order"> <span>ORDER</span> NOW </h1>
     <div class="row">
-        
         <div class="image">
             <img src="Img-2.jpeg" alt="">
         </div>
 
-        <form action="">
-
-            <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
+        <form action="box">
+            <div class="input_wrapper">
+                <input id="name" type="name" name="name" placeholder="Your name" required class="input_field">
+                <input id="Email" type="Email"  name="Email" placeholder="Email" required class="input_field">
             </div>
-
-            <div class="inputBox">
+            <div class="input_form">
                 <input type="number" placeholder="number">
                 <input type="text" placeholder="food name">
             </div>
-
-            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
-
-            <input type="submit" value="order now" class="btn">
-
+            <textarea placeholder="Address" name="" id="" cols="30" rows="10"></textarea>
+            <button onclick="openNewPage()"> ORDER NOW </button>
         </form>
-
     </div>
-
 </section>
-
 <!-- order section ends -->
 
             <!--===== APP =======-->
@@ -451,7 +443,6 @@
                             <a href="https://eatyourworld.com/destinations/africa/general_sierra_leone/sierra_leone/what_to_eat/binch_bean_dishes" target="_blank">More Info</a>
                         </div>
                     </div>
-
                     <img src="assets/img/movil-app.png" alt="" class="app__img">
                 </div>
             </section>
@@ -508,8 +499,8 @@
                 <div class="footer__content">
                     <h3 class="footer__title">Address</h3>
                     <ul>
-                        <li>3 Hospital Road, Freetown</li>
-                        <li>Jr Union #999</li>
+                        <li>N27 Lowcost Housing Kissy, Freetown</li>
+                        <li>Food for thy belleh</li>
                         <li>+23278074747/+23231022149</li>
                         <li>hamzie56@gmail.com</li>
                     </ul>

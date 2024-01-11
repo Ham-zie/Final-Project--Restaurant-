@@ -89,6 +89,15 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+//Order Now section 
+function openNewPage() {
+    window.open('card.html', '_blank');
+}
+
+//Progrogramming section for ORDER NOW 
+
+//CLOSE OF ORDER SECTION 
+
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
     origin: 'top',
